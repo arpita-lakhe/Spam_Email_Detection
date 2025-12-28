@@ -29,6 +29,8 @@ if st.button("🔍 Check Email"):
     if email_text.strip() == "":
         st.warning("⚠️ Please enter some email content.")
     else:
+        # Transform input
+        transformed_text = vectorizer.transform([email_text])
 
       
 
