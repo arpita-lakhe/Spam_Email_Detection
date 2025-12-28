@@ -3,6 +3,7 @@ import pickle
 
 # Load trained model and vectorizer
 model = pickle.load(open("model (2).pkl", "rb"))
+vectorizer = pickle.load(open("vectorizer.pkl", "rb"))
 
 
 # Page configuration
